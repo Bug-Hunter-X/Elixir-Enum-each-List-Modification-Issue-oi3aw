@@ -1,0 +1,1 @@
+This example demonstrates a common misconception in Elixir when working with lists and the `Enum.each` function.  The code attempts to remove the element `3` from the list during iteration. However, because lists are immutable in Elixir, the original list remains unaffected.  The solution shows the correct way to modify a list within functional paradigms.
